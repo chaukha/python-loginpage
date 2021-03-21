@@ -1,0 +1,11 @@
+from tkinter import *
+from tkinter import messagebox
+
+#tao form
+chaukha = Tk()
+
+#title
+chaukha.title('Chao mung den voi Chau Kha Application')
+#tao username
+username = Label(chaukha,text='Email:')
+username.pack()
